@@ -12,5 +12,8 @@ public class ConstantsRate {
         return c;
 
     }
-
+    public double lbkg(double lb) {
+        double kg = lb * 0.45359;
+        return kg;
+    }
 }
